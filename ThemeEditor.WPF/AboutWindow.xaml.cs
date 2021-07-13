@@ -38,7 +38,7 @@ namespace ThemeEditor.WPF
         public string AppTitle => GetAttribute<AssemblyTitleAttribute>(Assembly.GetEntryAssembly()).Title;
         public Version AppVersion => Assembly.GetEntryAssembly().GetName().Version;
 
-        public static string AppUpdates => @"https://github.com/usagirei/3DS-Theme-Editor/releases/latest";
+        public static string AppUpdates => @"https://github.com/crazynoob458/3DS-Theme-Editor/releases/latest";
 
         public Version OnlineVersion
         {
